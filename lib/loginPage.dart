@@ -65,22 +65,22 @@ class LoginPage extends StatelessWidget {
              ],
            ),
 
-            // ElevatedButton(
-            //     onPressed: (){
-            //       if(emailControler.text=="mustfa"){
-            //         print(true);
-            //       }
-            //       else {
-            //         print(false);
-            //       }
-            //     },
-            //     child: Text("Login"),
-            // ),
-            //
-            //
-            //
-            // SizedBox(height: 100,),
-            // Text("fadsfdasf"),
+            ElevatedButton(
+                onPressed: (){
+                  if(emailControler.text=="mustfa"){
+                    print(true);
+                  }
+                  else {
+                    print(false);
+                  }
+                },
+                child: Text("Login"),
+            ),
+
+
+
+            SizedBox(height: 100,),
+
 
 
 
